@@ -1,0 +1,118 @@
+    body {
+      font-family: Arial, sans-serif;
+      background:url(/images/formbg2.jpg);
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      color:black;
+      background-size: cover;
+      background-position: center;
+    }
+h2{
+    text-align: center;
+    color: #FFFFF0	;
+}
+    form {
+      background: url(/images/formbg2.jpg);
+      padding: 25px;
+      border-radius: 10px;
+      width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+
+    .form-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 0.95em;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .radio-group,
+    .checkbox-group {
+      display: flex;
+      gap: 15px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+  input[type="file"] {
+  font-size: 0.95em;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.span {
+    color: #d50000;
+    font-size: 20px;
+}
+
+    /* mediaquerry  */
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input[type="submit"] {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}

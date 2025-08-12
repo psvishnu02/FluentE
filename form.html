@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="/assets/form.css">
+</head>
+<body>
+  <form action="index.html" method="get" id="formr">
+    <h2>Register Your Journey</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" />
+        <span class="span" id="nameerror"></span>
+
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" />
+        <span class="span" id="ageerror"></span>
+      </div>
+    </div>
+
+    <label>Gender:</label>
+    <div class="radio-group">
+      <label><input type="radio" id="male" name="gender" value="male" /> Male</label>
+      <label><input type="radio" id="female" name="gender" value="female" /> Female</label>
+      <label><input type="radio" id="other" name="gender" value="other" /> Other</label>
+      <span class="span" id="genrr"></span>
+
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="mob">Mobile:</label>
+        <input type="text" name="mob" id="mob" />
+        <span class="span" id="moberror"></span>
+        
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+        <span class="span" id="mailerror"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <textarea name="address" id="address"></textarea>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="occupation">Occupation:</label>
+        <select id="occupation" name="occupation">
+          <option value="">--Select--</option>
+          <option value="student">Student</option>
+          <option value="employee">Employee</option>
+          <option value="housewife">Housewife</option>
+          <option value="retired">Retired</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="other">Other</option>
+        </select>
+        <span class="span" id="ocperror"></span>
+
+      </div>
+
+      <div class="form-group">
+        <label for="level">English Proficiency Level:</label>
+        <select id="level" name="level">
+          <option value="">--Select Level--</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+          <span class="span" id="levelerror"></span>
+
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="course">Preferred Course Type:</label>
+        <select id="course" name="course">
+          <option value="">--Select Course--</option>
+          <option value="spoken">Spoken English</option>
+          <option value="grammar">Grammar</option>
+          <option value="ielts">IELTS Preparation</option>
+          <option value="business">Business English</option>
+        </select>
+          <span class="span" id="courseerror"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="mode">Mode of Study:</label>
+        <select id="mode" name="mode">
+          <option value="">--Select Mode--</option>
+          <option value="live">Live Classes</option>
+          <option value="recorded">Pre-recorded</option>
+          <option value="both">Both</option>
+        </select>
+          <span class="span" id="modeerror"></span>
+      </div>
+    </div>
+
+    <label>Preferred Learning Time:</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" id="morning" name="learning_time" value="morning" /> Morning</label>
+      <label><input type="checkbox" id="afternoon" name="learning_time" value="afternoon" /> Afternoon</label>
+      <label><input type="checkbox" id="evening" name="learning_time" value="evening" /> Evening</label>
+      <span class="span" id="timeErr"></span>
+
+    </div>
+
+    <div class="form-group">
+      <label><input type="checkbox" id="terms" name="terms" /> I agree to the <a href="#">terms and conditions</a>.</label>
+      <span class="span" id="termserr"></span>
+    </div>
+
+    <input type="submit" value="Register" id="submit"/>
+  </form>
+</body>
+<script src="/assets/script.js"></script>
+ </html>

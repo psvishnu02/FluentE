@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FluentE</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/mediaquery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- header  -->
+  <header class="header">
+    <div class="logo">
+      <span class="icon">📘</span>
+      <span class="text"><span class="e">Fluent</span>E</span>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#abt">ABOUT</a></li>
+        <li><a href="#course">COURSES</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#ftr">CONTACT</a></li>
+      </ul>
+    </nav>
+    <a href="/form.html" class="join-btn">Register ➔</a>
+    <div class="hamburger">&#9776;</div>
+  </header>
+
+<!-- main page  -->
+  <main>
+    <!-- home page  -->
+  <div class="home" id="home">
+    <div class="text1"><p>WELCOME TO FLUENT<span style="color:#00bcd4;">E</span></p>
+      <p>Your True English Partner</p></div>
+        <div class="text2"><p>Learn English</p><p> From <span style="color: #00bcd4;">YOur COmfort</span> Zone</p></div>
+  <div class="text3"><p>Be <span style="color: #00bcd4;">Confident</span></p><p>Everytime</p></div>
+  </div>
+  <!-- about us  -->
+  <div class="about-us" id="abt">
+    <div class="abt-text">
+      <h1>ABOUT <span style="color: #00bcd4;">US</span></h1>
+      <p class="description">
+        At fluentE, we believe that learning English should be practical, personalized, and empowering.
+        Whether you're aiming to boost your career, connect globally, or simply express yourself more clearly,
+         fluentE is here to help you reach fluency with confidence.Founded by language enthusiasts and educators, fluentE combines expert-designed lessons,
+         real-life conversation practice, and smart technology to  help learners of all levels make real progress — fast.</p>
+         <h2>What Do We Provide</h2>
+        <ul class="features">
+          <li>✅Skilled Trainers</li>
+          <li>✅Customized Learning Paths</li>
+          <li>✅Progress Tracking & Reports</li>
+        </ul>
+    </div>
+    <div class="abt-img">
+      <img src="/images/abt.jpg" alt="about us image">
+    </div>    
+  </div>
+  <!-- course section  -->
+   <div class="course-section" id="course">
+    <h2>Courses</h2>
+    <h4>What You Can <span style="color:#00bcd4;">Learn</span></h4>
+    <div class="course-container">
+      <div class="course-menu">
+        <button class="menu-btn active" onclick="showCourse('spokene',event)">Spoken English</button>
+        <button class="menu-btn" onclick="showCourse('grammer',event)">Grammer</button>
+        <button class="menu-btn" onclick="showCourse('ielts',event)">IELTS Prepration</button>
+        <button class="menu-btn" onclick="showCourse('buisness',event)">Buisness English</button>
+      </div>
+      <div class="course-details" id="course-details">
+      </div>
+    </div>
+   </div>
+<!-- teachers section  -->
+ <div class="teachers" id="trainers">
+      <h2>Expert <span style="color: #00bcd4;">Trainers</span></h2>
+    <p class="subtitle">Meet Professional Trainers</p>
+    <div class="trainers-box">
+      <div class="trainers-card">
+        <img src="/images/t1.jpg" alt="Mark Wilson">
+        <h3>Mark Wilson</h3>
+        <p>English Trainer</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <div class="trainers-card">
+        <img src="/images/t2.jpg" alt="Catherine">
+        <h3>Catherine</h3>
+        <p>English Trainer</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>         
+        </div>
+      </div>
+
+      <div class="trainers-card">
+        <img src="/images/t3.jpg" alt="Catherine">
+        <h3>Robert</h3>
+        <p>English Trainer</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>         
+        </div>
+      </div>
+
+      <div class="trainers-card">
+        <img src="/images/t4.jpg" alt="Jessie Ca">
+        <h3>Jessie Ca</h3>
+        <p>English Trainer</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+
+        </div>
+      </div>
+
+      <div class="trainers-card">
+        <img src="/images/t5.jpg" alt="Andrew Berti">
+        <h3>Andrew Berti</h3>
+        <p>English Trainer</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </div>
+ </div>
+</main>
+
+<!-- footer  -->
+  <footer class="footer" id="ftr">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">Enquery</a></li>
+  	 				<li><a href="#">Feedback</a></li>
+  	 				<li><a href="#">Course Status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+        <div class="footer-col">
+  	 			<h4>contact us</h4>
+  	 			<ul class="contact-info">
+  	 				<li><a href="tel:+0498 2556897"><span style="color:azure;">phone:</span> +0498 2556897</a></li>
+  	 				<li><a href="tel:9023556789"><span style="color: azure;">Mobile:</span>9023556789</a></li>
+  	 				<li><a href="mailto:fluente@gmail.com"><span style="color: azure;">Email:</span>fluente@gmail.com</a></li>
+            <!-- <li><span><i class="fa-solid fa-phone"></i></span><p><a href="tel:+04952234242"></a>+0495 2234242</p></li>
+            <li><span><i class="fa-solid fa-phone"></i></span><p><a href="tel:+04982556897"></a>+0498 2556897</p></li>
+            <li><span><i class="fa-solid fa-mobile"></i></span><p><a href="tel:9023556789"></a>9023556789</p></li>
+            <li><span><i class="fa-solid fa-envelope"></i></span><p><a href="mailto:fluente@gmail.com?"></a>fluente@gmail.com</p></li> -->
+  	 			</ul>
+  	 		</div>       
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-x-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-youtube"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-reddit"></i></a>
+  	 			</div>
+  	 		</div>
+        <div class="footer-col">
+  	 			<h4>Branches</h4>
+  	 			<ul class="branches">
+  	 				<li>2nd Floor XP-Plazza,Edappally,Ernakulam</li>
+  	 				<li>RP Arcade,Eranjippalam,calicut</li>
+  	 				<li>Sundaram arcade,Thaliparambu ,kannur</li>
+  	 			</ul>
+  	 		</div> 
+  	 	</div>
+      <div class="footer-bottom">
+        <p>All rights reserved by &copy;FluentE@2025</p>
+      </div>
+  	 </div>
+  </footer>
+
+</body>
+<script src="/assets/script.js"></script>
+<script>
+  // header 
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+</script>
+</html>
