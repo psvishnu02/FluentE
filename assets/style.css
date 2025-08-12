@@ -124,17 +124,17 @@ body{
 
     0%,
     33% {
-      background-image: url(./images/s1.jpg);
+      background-image: url(../images/s1.jpg);
     }
 
     34%,
     66% {
-      background-image: url(./images/s2.jpg);
+      background-image: url(../images/s2.jpg);
     }
 
     67%,
     100% {
-      background-image: url(./images/s3.jpg);
+      background-image: url(../images/s3.jpg);
     }
   }
 
